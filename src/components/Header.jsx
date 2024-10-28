@@ -5,7 +5,11 @@ function Header() {
   return (
     <header className="header">
       <div className="header-container">
-      <h1>Conheça Balneário Barra do Sul!</h1>
+        <img 
+          src={process.env.PUBLIC_URL + '/balneario-barra-do-sul.png'} 
+          alt="Balneário Barra do Sul"
+        />
+        <h1>Balneário Barra do Sul</h1>
       </div>
     </header>
   );

@@ -9,8 +9,6 @@ function Footer() {
           <h3>Balneário Barra do Sul</h3>
         </div>
         <div className="footer-section">
-          <h4>Contato</h4>
-          <p>Email: contato@barradosul.sc.gov.br</p>
           <p>feito por Fernando Stahelin</p>
         </div>
       </div>
