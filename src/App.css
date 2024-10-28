@@ -38,3 +38,15 @@ img {
     transform: rotate(360deg);
   }
 }
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  margin-top: 70px; /* Adjust based on your header height */
+  flex: 1;
+  padding: 2rem;
+}
