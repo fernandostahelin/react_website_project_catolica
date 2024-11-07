@@ -1,0 +1,85 @@
+
+> agenda-06@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+[eslint] 
+src/App.jsx
+  Line 1:26:   Delete `;`                                                                                                                                                                                                                                                                                                         prettier/prettier
+  Line 2:59:   Delete `;`                                                                                                                                                                                                                                                                                                         prettier/prettier
+  Line 3:41:   Delete `;`                                                                                                                                                                                                                                                                                                         prettier/prettier
+  Line 4:41:   Delete `;`                                                                                                                                                                                                                                                                                                         prettier/prettier
+  Line 5:37:   Delete `;`                                                                                                                                                                                                                                                                                                         prettier/prettier
+  Line 6:19:   Delete `;`                                                                                                                                                                                                                                                                                                         prettier/prettier
+  Line 15:17:  Replace `·src='https://turismo.balneariobarradosul.sc.gov.br/uploads/sites/533/2010/01/9-1000x1000.png'·alt='Balneário·Barra·do·Sul'` with `⏎··············src='https://turismo.balneariobarradosul.sc.gov.br/uploads/sites/533/2010/01/9-1000x1000.png'⏎··············alt='Balneário·Barra·do·Sul'⏎············`  prettier/prettier
+  Line 23:4:   Delete `;`                                                                                                                                                                                                                                                                                                         prettier/prettier
+  Line 26:19:  Delete `;`                                                                                                                                                                                                                                                                                                         prettier/prettier
+
+src/components/Footer.jsx
+  Line 1:26:   Delete `;`                                              prettier/prettier
+  Line 2:22:   Delete `;`                                              prettier/prettier
+  Line 6:23:   Replace `"footer"` with `'footer'`                      prettier/prettier
+  Line 7:22:   Replace `"footer-container"` with `'footer-container'`  prettier/prettier
+  Line 8:24:   Replace `"footer-section"` with `'footer-section'`      prettier/prettier
+  Line 11:24:  Replace `"footer-section"` with `'footer-section'`      prettier/prettier
+  Line 15:22:  Replace `"footer-bottom"` with `'footer-bottom'`        prettier/prettier
+  Line 19:4:   Delete `;`                                              prettier/prettier
+  Line 22:22:  Delete `;`                                              prettier/prettier
+
+src/components/Form.jsx
+  Line 1:40:   Delete `;`                                                                                                                                                    prettier/prettier
+  Line 2:20:   Delete `;`                                                                                                                                                    prettier/prettier
+  Line 5:1:    Replace `····const·[name,·setName]·=·useState('');` with `··const·[name,·setName]·=·useState('')`                                                             prettier/prettier
+  Line 6:3:    Replace `··const·[email,·setEmail]·=·useState('');` with `const·[email,·setEmail]·=·useState('')`                                                             prettier/prettier
+  Line 7:1:    Replace `····const·[subject,·setSubject]·=·useState('');` with `··const·[subject,·setSubject]·=·useState('')`                                                 prettier/prettier
+  Line 8:1:    Replace `····const·[message,·setMessage]·=·useState('');` with `··const·[message,·setMessage]·=·useState('')`                                                 prettier/prettier
+  Line 9:1:    Replace `····const·[submittedData,·setSubmittedData]·=·useState(null);` with `··const·[submittedData,·setSubmittedData]·=·useState(null)`                     prettier/prettier
+  Line 10:1:   Replace `····const·[showSuccess,·setShowSuccess]·=·useState(false);` with `··const·[showSuccess,·setShowSuccess]·=·useState(false)`                           prettier/prettier
+  Line 12:3:   Delete `··`                                                                                                                                                   prettier/prettier
+  Line 13:5:   Replace `····e.preventDefault();` with `e.preventDefault()`                                                                                                   prettier/prettier
+  Line 14:1:   Replace `········setSubmittedData({·name,·email,·subject,·message·});` with `····setSubmittedData({·name,·email,·subject,·message·})`                         prettier/prettier
+  Line 15:1:   Replace `········setName('');` with `····setName('')`                                                                                                         prettier/prettier
+  Line 16:1:   Replace `········setEmail('');` with `····setEmail('')`                                                                                                       prettier/prettier
+  Line 17:1:   Replace `········setSubject('');` with `····setSubject('')`                                                                                                   prettier/prettier
+  Line 18:1:   Replace `········setMessage('');` with `····setMessage('')`                                                                                                   prettier/prettier
+  Line 19:1:   Replace `········setShowSuccess(true);` with `····setShowSuccess(true)`                                                                                       prettier/prettier
+  Line 20:1:   Replace `········setTimeout(()·=>·setShowSuccess(false),·3000);` with `····setTimeout(()·=>·setShowSuccess(false),·3000)`                                     prettier/prettier
+  Line 21:1:   Replace `····};` with `··}`                                                                                                                                   prettier/prettier
+  Line 23:3:   Delete `··`                                                                                                                                                   prettier/prettier
+  Line 24:1:   Replace `········<div·className="form-container"` with `····<div·className='form-container'`                                                                  prettier/prettier
+  Line 25:1:   Replace `············<form·className="form"` with `······<form·className='form'`                                                                              prettier/prettier
+  Line 26:1:   Replace `················<input·type="text"·placeholder="Nome"` with `········<input·type='text'·placeholder='Nome'`                                          prettier/prettier
+  Line 27:9:   Replace `········<input·type="email"·placeholder="Email"` with `<input·type='email'·placeholder='Email'`                                                      prettier/prettier
+  Line 28:9:   Replace `········<input·type="text"·placeholder="Assunto"` with `<input·type='text'·placeholder='Assunto'`                                                    prettier/prettier
+  Line 29:1:   Replace `················<textarea·placeholder="Mensagem"` with `········<textarea·placeholder='Mensagem'`                                                    prettier/prettier
+  Line 30:9:   Replace `········<button·type="submit"` with `<button·type='submit'`                                                                                          prettier/prettier
+  Line 31:1:   Replace `················{showSuccess·&&·<div·className="success-message"` with `········{showSuccess·&&·<div·className='success-message'`                    prettier/prettier
+  Line 32:1:   Delete `······`                                                                                                                                               prettier/prettier
+  Line 33:1:   Delete `············`                                                                                                                                         prettier/prettier
+  Line 34:1:   Delete `······`                                                                                                                                               prettier/prettier
+  Line 35:1:   Replace `················<div·className="submitted-data"` with `········<div·className='submitted-data'`                                                      prettier/prettier
+  Line 36:1:   Replace `····················` with `··········`                                                                                                              prettier/prettier
+  Line 37:11:  Replace `··········<p><strong>Nome:</strong>·{submittedData.name}` with `<p>⏎············<strong>Nome:</strong>·{submittedData.name}⏎··········`              prettier/prettier
+  Line 38:11:  Replace `··········<p><strong>Email:</strong>·{submittedData.email}` with `<p>⏎············<strong>Email:</strong>·{submittedData.email}⏎··········`          prettier/prettier
+  Line 39:11:  Replace `··········<p><strong>Assunto:</strong>·{submittedData.subject}` with `<p>⏎············<strong>Assunto:</strong>·{submittedData.subject}⏎··········`  prettier/prettier
+  Line 40:11:  Replace `··········<p><strong>Mensagem:</strong>·{submittedData.message}</p>` with `<p>⏎············<strong>Mensagem:</strong>·{submittedData.message}`       prettier/prettier
+  Line 41:11:  Insert `</p>⏎··`                                                                                                                                              prettier/prettier
+  Line 42:1:   Delete `······`                                                                                                                                               prettier/prettier
+  Line 43:5:   Delete `····`                                                                                                                                                 prettier/prettier
+  Line 44:3:   Replace `··);` with `)`                                                                                                                                       prettier/prettier
+  Line 47:20:  Replace `;` with `⏎`                                                                                                                                          prettier/prettier
+
+src/components/Header.jsx
+  Line 1:26:   Delete `;`                                                                                                                                                                                                                          prettier/prettier
+  Line 2:22:   Delete `;`                                                                                                                                                                                                                          prettier/prettier
+  Line 6:23:   Replace `"header"` with `'header'`                                                                                                                                                                                                  prettier/prettier
+  Line 7:22:   Replace `"header-container"` with `'header-container'`                                                                                                                                                                              prettier/prettier
+  Line 8:14:   Replace `⏎··········src={process.env.PUBLIC_URL·+·'/balneario-barra-do-sul.png'}·⏎··········alt="Balneário·Barra·do·Sul"⏎·······` with `src={process.env.PUBLIC_URL·+·'/balneario-barra-do-sul.png'}·alt='Balneário·Barra·do·Sul'`  prettier/prettier
+  Line 15:4:   Delete `;`                                                                                                                                                                                                                          prettier/prettier
+  Line 18:22:  Delete `;`                                                                                                                                                                                                                          prettier/prettier
+
+Search for the keywords to learn more about each error.
+
+
