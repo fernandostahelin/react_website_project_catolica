@@ -1,5 +1,5 @@
 .header {
-  background-color: #ffffff;
+  background-color: #171717;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   position: fixed;
   top: 0;
@@ -11,9 +11,9 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0.5rem 2rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  display: flexbox;
+  justify-content: normal;
+  align-items:center;
   gap: 1rem;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .header-container h1 {
-  color: #333;
+  color: #ffffff;
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0;
